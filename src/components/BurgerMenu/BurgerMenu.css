@@ -1,0 +1,31 @@
+#burger-menu {
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+  #burger-menu {
+    display: flex;
+  }
+
+  #burger-menu *:focus {
+    outline: thin;
+  }
+
+  .menu-item {
+    display: flex;
+    justify-content: center;
+  }
+
+  .bm-item {
+    color: var(--secondary-color);
+  }
+
+  .bm-item:hover {
+    color: #ffffff;
+    background-color: var(--quaternary-color);
+  }
+
+  .bm-burger-bars {
+    background: var(--primary-color);
+  }
+}

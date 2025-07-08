@@ -1,0 +1,92 @@
+#contact {
+  display: flex;
+  text-align: center;
+  margin-bottom: 2em;
+  flex-direction: column;
+}
+
+.form-container {
+  width: 50vw;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto 5em auto;
+}
+
+.form-container label {
+  text-align: left;
+  font-weight: 600;
+}
+
+.form-container input,
+.form-container textarea {
+  margin-bottom: 1em;
+  border: 1.5px solid #ced4da;
+  border-radius: 2.5px;
+  font-size: 16px;
+  padding: 10px 15px;
+}
+
+.form-container textarea {
+  padding-bottom: 5em;
+}
+
+.form-container button {
+  width: 50%;
+  background-color: var(--tertiary-color);
+  color: #ffffff;
+  padding: 10px;
+  border-radius: 2.5px;
+  border-color: var(--tertiary-color);
+  font-size: 16px;
+  font-weight: 600;
+  margin: 15px auto;
+}
+
+.form-container button:hover {
+  cursor: pointer;
+  color: var(--tertiary-color);
+  background-color: #ffffff;
+}
+
+.errorMsg,
+.success {
+  margin: 0;
+  color: var(--tertiary-color);
+  font-weight: 600;
+}
+
+@media only screen and (max-width: 768px) {
+  .form-container {
+    width: 75vw;
+  }
+}
+
+.contact-background {
+  position: relative;
+  background: url("https://images.unsplash.com/photo-1669564005730-3a45fb7899ea") no-repeat center center fixed;
+  background-size: cover;
+  text-align: center;
+  padding: 4em 2em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  z-index: 0;
+  overflow: hidden;
+}
+
+.contact-background::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.4); 
+  z-index: 1;
+}
+
+.contact-background > * {
+  position: relative;
+  z-index: 2;
+  color: white; 
+}

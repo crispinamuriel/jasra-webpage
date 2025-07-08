@@ -1,0 +1,93 @@
+.about-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.about-info p {
+  margin: 0 auto;
+  text-align: left;
+  padding: 0.5em;
+  max-width: 50em;
+}
+
+.about-text a {
+  text-decoration: none;
+  color: var(--url-color);
+}
+
+.about-text a:hover {
+  border-bottom: 1px solid var(--url-color);
+}
+
+.contact-buttons-container {
+  margin: 5em auto 0 auto;
+}
+
+.contact-buttons-container :first-child {
+  border-top: 1px solid var(--secondary-color);
+  border-left: 1px solid var(--secondary-color);
+  border-bottom: 1px solid var(--secondary-color);
+  border-right: 0.5px solid var(--secondary-color);
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.contact-buttons-container :first-child:hover {
+  background-color: #000000;
+  color: var(--primary-color);
+}
+
+.contact-buttons-container :nth-child(2) {
+  border-top: 1px solid var(--secondary-color);
+  border-bottom: 1px solid var(--secondary-color);
+  border-right: 0.5px solid var(--secondary-color);
+}
+
+.contact-buttons-container :nth-child(2):hover {
+  background-color: #006091;
+  color: var(--primary-color);
+}
+
+.contact-buttons-container :nth-child(3) {
+  border-top: 1px solid var(--secondary-color);
+  border-bottom: 1px solid var(--secondary-color);
+}
+
+.contact-buttons-container :nth-child(3):hover {
+  background-color: #b10b03;
+  color: var(--primary-color);
+}
+
+.contact-buttons-container :nth-child(4) {
+  border-top: 1px solid var(--secondary-color);
+  border-left: 0.5px solid var(--secondary-color);
+  border-right: 1px solid var(--secondary-color);
+  border-bottom: 1px solid var(--secondary-color);
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.contact-buttons-container :nth-child(4):hover {
+  background-color: #33415c;
+  color: var(--primary-color);
+}
+
+.contact-buttons {
+  text-decoration: none;
+
+  text-align: center;
+  color: var(--secondary-color);
+  padding: 0.5em 1em;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+@media only screen and (max-width: 768px) {
+  .contact-buttons {
+    padding: 0.5em 0.75em;
+    font-size: 14px;
+  }
+}
