@@ -1,3 +1,7 @@
+# Jasra's Business Webpage
+
+This is a website created by Crispina Muriel for a client buiness webpage. You can check out the live site [here.](https://jasra.netlify.app/)
+
 ---
 title: Vite + React
 description: The default Vite + React starter, utilizing `Caddy` to serve the built app
@@ -7,23 +11,23 @@ tags:
   - react
 ---
 
-# Vite + React + Caddy
+### Vite + React + Caddy
 
 This is a [Vite + React](https://vitejs.dev/guide/#trying-vite-online) starter that uses [Caddy](https://caddyserver.com/).
 
 [![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/template/NeiLty?referralCode=ySCnWl)
 
-## ✨ Features
+### ✨ Features
 
 - Vite + React
 - [Caddy](https://caddyserver.com/)
 
-## 💁‍♀️ How to use
+### 💁‍♀️ How to use
 
 - Install required dependencies with `npm install`
 - Start the server for local development `npm run dev`
 
-## ❓ Why use `Caddy` when deploying to Railway?
+### ❓ Why use `Caddy` when deploying to Railway?
 
 Caddy is a powerful, enterprise-ready, open source web server, and therefore Caddy is far better suited to serve websites than Vite is, using Caddy will result in much less memory and cpu usage compared to serving with Vite (much lower running costs too)
 
