@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import resume from "../../assets/Jasra_Vandekrol_Resume.pdf";
 import { fallDown as Menu } from "react-burger-menu";
 import "./BurgerMenu.css";
