@@ -1,4 +1,3 @@
-import React from "react";
 import icon from "../../assets/peticon.svg";
 import resume from "../../assets/Jasra_Vandekrol_Resume.pdf";
 import "./NavBar.css";
