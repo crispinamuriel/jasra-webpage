@@ -1,4 +1,3 @@
-import React from "react";
 import NavBar from "./components/NavBar/NavBar.tsx";
 import BurgerMenu from "./components/BurgerMenu/BurgerMenu";
 import Main from "./components/Main/Main.tsx";
