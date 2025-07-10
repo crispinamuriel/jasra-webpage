@@ -1,3 +1,4 @@
+import resume from "../../assets/Jasra_Vandekrol_Resume.pdf";
 import "./About.css";
 
 const About = () => {
@@ -34,7 +35,7 @@ const About = () => {
               LinkedIn
             </a>
             <a
-              href={'www.google.com'}
+              href={resume}
               target="_blank"
               rel="noopener noreferrer"
               className="contact-buttons">
