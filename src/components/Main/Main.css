@@ -1,6 +1,6 @@
 .main-container {
   position: relative;
-  background: url("https://images.unsplash.com/photo-1491438317814-6395bcc76429") no-repeat center center fixed;
+  background: url("https://images.unsplash.com/photo-1503256207526-0d5d80fa2f47") no-repeat center center;
   background-size: cover;
   text-align: center;
   margin: 0 auto;
@@ -12,11 +12,18 @@
   z-index: 0;
 }
 
+@media (max-width: 768px) {
+  .main-container {
+    background-attachment: scroll;
+    background-position: center top;
+  }
+}
+
 .main-container::before {
   content: "";
   position: absolute;
   inset: 0;
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.7);
   z-index: 1;
 }
 
