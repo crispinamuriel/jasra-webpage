@@ -1,4 +1,4 @@
-# Jasra's Business Webpage
+# Small Business Webpage
 
 This is a website created by Crispina Muriel for a client buiness webpage. You can check out the live site [here.](https://jasra.netlify.app/)
 
