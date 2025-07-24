@@ -18,7 +18,7 @@ const Services = () => {
   const frontendServices = () => (
     <>
       <a
-        href="mailto:jasra@email.com?subject=I'd%20like%20Pet%20Grooming!"
+        href="mailto:jasra.vandekrol@gmail.com?subject=I'd%20like%20Pet%20Grooming!"
         target="_blank"
         rel="noopener noreferrer"
         >
@@ -26,35 +26,35 @@ const Services = () => {
         <p>Pet Grooming</p>
       </a>
       <a
-        href="mailto:jasra@email.com?subject=I'd%20like%20Pet%20Sitting!"
+        href="mailto:jasra.vandekrol@gmail.com?subject=I'd%20like%20Pet%20Sitting!"
         target="_blank"
         rel="noopener noreferrer">
         <img width="100px" src="/petsitting.png" />
         <p>Pet Sitting</p>
       </a>
       <a
-        href="mailto:jasra@email.com?subject=I'd%20like%20Pet%20Boarding!"
+        href="mailto:jasra.vandekrol@gmail.com?subject=I'd%20like%20Pet%20Boarding!"
         target="_blank"
         rel="noopener noreferrer">
         <img width="95px" src="/boarding.png" />
         <p>Pet Boarding</p>
       </a>
       <a
-        href="mailto:jasra@email.com?subject=I'd%20like%20Pet%20Training!"
+        href="mailto:jasra.vandekrol@gmail.com?subject=I'd%20like%20Pet%20Training!"
         target="_blank"
         rel="noopener noreferrer">
         <img width="120px" src="/training.png" />
         <p>Pet Training</p>
       </a>
       <a
-        href="mailto:jasra@email.com?subject=I'd%20like%20Dogwalking!"
+        href="mailto:jasra.vandekrol@gmail.com?subject=I'd%20like%20Dogwalking!"
         target="_blank"
         rel="noopener noreferrer">
         <img width="100px" src="/walk.png" />
         <p>Dog Walking</p>
       </a>
       <a
-        href="mailto:jasra@email.com?subject=I'd%20like%20Pet%20Transport!"
+        href="mailto:jasra.vandekrol@gmail.com?subject=I'd%20like%20Pet%20Transport!"
         target="_blank"
         rel="noopener noreferrer">
         <img width="100px" src="/transport.png" />
@@ -66,7 +66,7 @@ const Services = () => {
   const backendServices = () => (
     <>
       <a
-        href="mailto:jasra@email.com?subject=I%27d%20like%20house%20sitting!"
+        href="mailto:jasra.vandekrol@gmail.com?subject=I%27d%20like%20house%20sitting!"
         target="_blank"
         rel="noopener noreferrer"
         >
@@ -74,14 +74,14 @@ const Services = () => {
         <p>House Sitting</p>
       </a>
       <a
-        href="mailto:jasra@email.com?subject=I%27d%20like%20plant%20sitting!"
+        href="mailto:jasra.vandekrol@gmail.com?subject=I%27d%20like%20plant%20sitting!"
         target="_blank"
         rel="noopener noreferrer">
         <img width="100px" src="/plant.png" />
         <p>Plant Sitting</p>
       </a>
       <a
-        href="mailto:jasra@email.com?subject=I%27d%20like%20custom%20service!"
+        href="mailto:jasra.vandekrol@gmail.com?subject=I%27d%20like%20custom%20service!"
         target="_blank"
         rel="noopener noreferrer">
         <img width="90px" src="/custom.png" />
@@ -92,23 +92,23 @@ const Services = () => {
 
   const otherServices = () => (
     <>
-      <a href="mailto:jasra@email.com?subject=I%27d%20like%20Housekeeping%20service!" target="_blank" rel="noopener noreferrer">
+      <a href="mailto:jasra.vandekrol@gmail.com?subject=I%27d%20like%20Housekeeping%20service!" target="_blank" rel="noopener noreferrer">
         <img width="100px" src="/housekeeping.png" />
         <p>Housekeeping</p>
       </a>
-      <a href="mailto:jasra@email.com?subject=I%27d%20like%20laundry%20service!" target="_blank" rel="noopener noreferrer">
+      <a href="mailto:jasra.vandekrol@gmail.com?subject=I%27d%20like%20laundry%20service!" target="_blank" rel="noopener noreferrer">
         <img width="100px" src="/laundry.png" />
         <p>Laundry</p>
       </a>
       <a
-        href="mailto:jasra@email.com?subject=I%27d%20like%20babysitting%20service!"
+        href="mailto:jasra.vandekrol@gmail.com?subject=I%27d%20like%20babysitting%20service!"
         target="_blank"
         rel="noopener noreferrer">
         <img width="100px" src="/babysitting.png" />
         <p>Babysitting</p>
       </a>
       <a
-        href="mailto:jasra@email.com?subject=I%27d%20like%20custom%20service!"
+        href="mailto:jasra.vandekrol@gmail.com?subject=I%27d%20like%20custom%20service!"
         target="_blank"
         rel="noopener noreferrer">
         <img width="100px" src="/other.png" />

@@ -23,7 +23,7 @@ const About = () => {
           </div>
           <div className="contact-buttons-container">
             <a
-              href="mailto:jasra@email.com"
+              href="mailto:jasra.vandekrol@gmail.com"
               className="contact-buttons">
               Email
             </a>
