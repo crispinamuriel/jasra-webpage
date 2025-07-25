@@ -15,10 +15,10 @@ const About = () => {
                 👋
               </span>
             </h4>
-            <p>I provide pet care at your home or my place. I take care of your pets in the comfort of their own home, minimizing any disruption to their routine, or I offer boarding at our space in Vancouver, where your pet will receive the same level of attention and care as if they were in their own home. In both cases, we keep our clients constantly updated.</p>
+            <p>I have strived to aid, comfort, and build trust with animals since the day I was born. There hasn't been a time when I haven't had a dog, and cats have always been my favorite! As soon as I met the age requirement for a local shelter, I immediately sent in a request to volunteer and got accepted. I spent hundreds of hours caring for cats and dogs and loved every second of it, creating an ambition to seek out new ways to pursue my passion. I'm eager and excited to create a happy and trusting relationship with your pets!</p>
             <p>
               <a href="#contact">Contact me</a> if you have any questions or
-              want to chat!
+              want to chat.
             </p>
           </div>
           <div className="contact-buttons-container">
@@ -28,11 +28,11 @@ const About = () => {
               Email
             </a>
             <a
-              href="https://www.linkedin.com/"
+              href="https://www.rover.com/members/jasra-v"
               target="_blank"
               rel="noopener noreferrer"
               className="contact-buttons">
-              LinkedIn
+              Rover
             </a>
             <a
               href={resume}
@@ -42,11 +42,11 @@ const About = () => {
               Resume
             </a>
             <a
-              href="https://blah-blah-blog.netlify.app/"
+              href="https://www.rover.com/members/jasra-v-certified-pet-sitter-and-dog-walker/contact/?slug=jasra-v-certified-pet-sitter-and-dog-walker&service=drop-in&bep=event%3Drecord-event%26event_name%3DCSC%2B-%2Bnot%2Blogged%2Bin&service_type=drop-in&frequency=onetime&pet_type=dog&bep=event%3Daccount-sign-up-google-success&bep=signup_method%3Dgoogle%26person_opk%3DgDDxxaag%26account_zip%3D97204%26event%3Dsign_up"
               target="_blank"
               rel="noopener noreferrer"
               className="contact-buttons">
-              Blog
+              Contact using Rover
             </a>
           </div>
         </section>
